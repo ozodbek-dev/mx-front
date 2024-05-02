@@ -1,0 +1,132 @@
+// .select_div_jinsi {
+//     width: 45%;
+//     div {
+//         width: 100%;
+//     }
+// }
+
+.inpub_blocks_jinsi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    div {
+        width: 45%;
+        div {
+            width: 100%;
+        }
+    }
+}
+
+.dializa_div_99 {
+    color: #2c0ee6;
+}
+
+.back_doctor {
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.seanslar_all {
+    // width: 30px;
+    // background: rgb(184, 183, 183);
+    // height: 30px;
+    // border-radius: 50%;
+    // -webkit-border-radius: 50%;
+    // -moz-border-radius: 50%;
+    // -ms-border-radius: 50%;
+    // -o-border-radius: 50%;
+    // border: none;
+    // transition: all eas 0.5s;
+    // -webkit-transition: all eas 0.5s;
+    // -moz-transition: all eas 0.5s;
+    // -ms-transition: all eas 0.5s;
+    // -o-transition: all eas 0.5s;
+    // &:hover {
+    //     background: rgb(79, 78, 78);
+    // }
+    border: none;
+    background: none;
+    padding: 5px 10px;
+    background: #1976d2;
+    border-radius: 6px;
+    color: white;
+transition: all eas 0.5s;
+    -webkit-transition: all eas 0.5s;
+    -moz-transition: all eas 0.5s;
+    -ms-transition: all eas 0.5s;
+    -o-transition: all eas 0.5s;
+    &:hover {
+        background: #11508f;
+    }
+}
+
+.button_block {
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+
+
+}
+
+.pnfl_icon {
+    width: 400px;
+
+}
+
+.jshshir_inner {
+    
+    &:hover .jshshir_inner_item {
+        display: block;
+        background:black;
+        position: absolute;
+        width: 410px;
+        padding: 10px;
+        z-index: 123;
+        top: 35px;
+        right: -300px;
+    }
+}
+
+.jshshir_inner_item {
+    display: none;
+}
+
+.sonlar {
+    margin-left: 15px;
+    h4 {
+        margin: 0;
+    }
+}
+
+.muassasa_blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.back_doctor {
+    display: flex;
+    align-items: center;
+}
+.input-sel label{
+    top: -37px;
+}
+
+
+
+.arxiv_personal {
+    .css-1q1u3t4-MuiTableRow-root:nth-child(odd) {
+    background-color:#E7EBF2;
+}
+}
+.arxiv1{
+    .css-1q1u3t4-MuiTableRow-root:nth-child(odd) {
+        background-color: #fff;
+    }
+}

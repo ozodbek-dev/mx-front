@@ -1,0 +1,44 @@
+.site-device{
+    padding: 40px 20px 20px 20px;
+
+     .css-1howxi1-MuiTableCell-root {
+        padding: 30px  !important;
+        text-align: center;
+        &:nth-child(1) {
+            text-align: left;
+        }
+        &:nth-child(2) {
+            text-align: left;
+        }
+    }
+
+    .css-dsuxgy-MuiTableCell-root {
+        padding: 30px  !important;
+        text-align: center;
+         &:nth-child(1) {
+            text-align: left;
+        }
+        &:nth-child(2) {
+            text-align: left;
+            width: 300px !important;
+        }
+    }
+
+    .sklad_title {
+    font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 32px;
+padding-left: 20px;
+color: #111111;
+}
+}
+
+.sklad_title1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+padding-left: 20px;
+color: #111111;
+}

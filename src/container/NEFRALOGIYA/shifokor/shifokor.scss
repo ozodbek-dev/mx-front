@@ -1,0 +1,101 @@
+.back_doctor {
+  color: rgb(21, 0, 255);
+  margin-left: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.modal_scrool_y {
+  overflow-y: auto;
+  form {
+    > div {
+      width: 100%;
+    }
+  }
+}
+
+.poliklinika {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.delete_div {
+  display: flex;
+  justify-content: center;
+}
+
+.button_modal {
+  display: flex;
+  justify-content: center;
+}
+
+.add_shifokor_12 {
+  h4 {
+    margin: 0;
+  }
+}
+
+.add_shifokor_12 .input-sel label {
+  top: 0 !important;
+}
+
+// .input-sel {
+//   margin-bottom: 15px;
+// }
+
+.button_modal_1 {
+  display: flex;
+  align-items: center;
+  button {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 40px;
+  }
+  .single_info {
+    width: 50px;
+    height: 40px;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.poliklinika_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+  h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111111;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+}
+
+.poliklinika_top_left {
+  display: flex;
+  align-items: center;
+
+  .search_input {
+    width: 300px;
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,156 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.sidebar {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+  min-height: 100vh;
+
+  &-logo {
+    margin: 0 auto;
+    display: block;
+  }
+
+  &-close-btn {
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: -50px;
+    cursor: pointer;
+    top: 7px;
+    width: 50px;
+    background: #ddebfb;
+    height: 70px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s;
+      transform: rotate(180deg);
+    }
+
+    &.open img {
+      transform: unset;
+    }
+  }
+
+  &-content:hover,
+  &-content.open {
+    width: 250px;
+  }
+
+  &-content {
+    transition: all 0.5s;
+    width: 60px;
+    padding: 50px 0 20px;
+    overflow: hidden;
+    background-color: white;
+
+    &-inner {
+      min-width: 250px;
+      height: 93vh;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 50px 0 0;
+    padding: 0;
+
+    li a {
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      line-height: 14px;
+
+      svg {
+        path {
+          transition: 0.5s;
+        }
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: #1976d2;
+
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.fa {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.logout-btn {
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  line-height: 14px;
+  transition: 0.5s;
+  cursor: pointer;
+
+  svg {
+    path {
+      transition: 0.5s;
+    }
+  }
+
+  &:hover {
+    background-color: red;
+    color: #fff;
+
+    svg {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}
+.ariza-count {
+  position: relative;
+}
+.ariza_number {
+  position: absolute;
+  z-index: 2;
+  padding: 10px 8px;
+  font-size: 64%;
+  vertical-align: middle;
+  left: 32px;
+  border-radius: 50%;
+  width: 29px;
+  height: 28px;
+  top: bo;
+  font-size: 2spx;
+  top: 452px;
+  color: #fff;
+  text-align: center;
+  background-color: #18cf9a;
+}

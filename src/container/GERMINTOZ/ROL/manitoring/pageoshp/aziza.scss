@@ -1,0 +1,54 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header{
+        gap: 20px;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 24px;
+        color: #111111; 
+    }
+    .excel{
+        width: 225px;
+height: 40px;
+background: #18CF6C;
+border-radius: 12px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+font-weight: 600;
+font-size: 16px;
+
+color: #FFFFFF;
+    }
+    .input_v{
+        margin-top: 20px;
+    }
+    .back_v{
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 4px;
+width: 99px;
+height: 40px;font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #1464C0;
+background: #FFFFFF;
+border-radius: 12px;
+margin-top: 20px;
+
+    }
+}
+.MuiTabs-flexContainer{
+    background: white;
+    border-radius: 12px;
+    padding: 12px 24px 0px;
+}

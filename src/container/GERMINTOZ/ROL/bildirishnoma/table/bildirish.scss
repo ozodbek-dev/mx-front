@@ -1,0 +1,19 @@
+.ariza_bottom_top {
+  button {
+    color: #4d4d4d;
+    &.active {
+      color: #1464c0;
+    }
+  }
+}
+.css-heg063-MuiTabs-flexContainer {
+  align-items: center !important;
+}
+.system-file{
+      white-space: nowrap; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+      &:hover{
+        white-space: inherit;
+      }
+}

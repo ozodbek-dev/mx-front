@@ -1,0 +1,111 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px 14px 70px;
+  background: white;
+  .header_inner_block {
+    display: flex;
+    align-items: center;
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration-line: underline;
+      color: #1464c0;
+      padding-right: 10px;
+      padding-left: 10px;
+      &:last-child {
+        padding-left: 10px;
+        // border-left: 1px solid black;
+      }
+    }
+  }
+}
+
+.header_inner_block {
+  display: flex;
+  align-items: center;
+  .hospital_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+  }
+}
+
+.header_right {
+  h3 {
+    margin: 0;
+  }
+}
+
+.tex_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #111111;
+  .tex_link {
+    color: blue;
+    border-left: none !important;
+    margin: 0;
+    text-decoration: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.goog-te-gadget span {
+  display: none;
+}
+
+.language {
+  margin-right: 20px;
+}
+
+.bildirishnoma_div {
+  background: #f4f4f4;
+  padding: 11px 18px;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  position: relative;
+  margin-left: 15px;
+}
+
+.bildirish_uvi {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  background: #18cf6c;
+  border-radius: 50%;
+  border-radius: 24px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.site-link {
+  &:hover {
+    color: #c52323 !important;
+  }
+}

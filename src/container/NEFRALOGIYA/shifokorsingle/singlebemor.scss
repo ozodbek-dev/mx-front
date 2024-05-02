@@ -1,0 +1,106 @@
+.singlebemor_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.singlebemor_top_right {
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #18cf6c;
+  }
+}
+
+.singlebemor_block {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 26px;
+
+  .singlebemor_block_left {
+    width: 49%;
+  }
+
+  .singlebemor_block_right {
+    width: 49%;
+  }
+}
+
+.singlebemor_block_info {
+  padding: 28px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.singlebemor_block_info_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1464c0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.singlebemor_block_info_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // height: 41px;
+
+  .singlebemor_block_info_desc {
+    text-align: left;
+    width: 50%;
+    border: 1px solid rgb(193, 187, 187);
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #111111;
+    margin: 0;
+    height: 55px;
+
+    button {
+      width: 70px !important;
+      .css-1d6wzja-MuiButton-startIcon {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.pasport_file {
+  color: blue;
+}
+.text-center {
+  text-align: center;
+}
+.comment-doctor {
+  width: 100%;
+  margin-bottom: 14px !important;
+}
+
+.doctor__form {
+  &--content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  &--field {
+    & > div {
+      width: 100%;
+    }
+  }
+}

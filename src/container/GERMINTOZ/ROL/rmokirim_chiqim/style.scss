@@ -1,0 +1,48 @@
+.image__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+}
+.file-name {
+  width: 350px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.preparat__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+  &--item {
+    margin-bottom: 3px;
+    &:first-child {
+      padding-bottom: 2px;
+      border-bottom: 1px solid #a1a0a0;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .remove-icon {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        color: red;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+  }
+}

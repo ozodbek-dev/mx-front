@@ -1,0 +1,32 @@
+.table-not{
+    border-radius: 12px !important;
+}
+.befor-date{
+    &::before{
+        display: block ;
+        margin-bottom: 4px;
+        content: attr(data-content);
+    }
+}
+.site-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.site-list__items{
+    display: inline-block;
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    background-color: #18CF6C;
+    border-radius: 40px;
+    &:not(:last-child){
+        margin-right: 10px;
+    }
+}
+.css-2m9kme-MuiFormControl-root{
+    width: 100%;
+}

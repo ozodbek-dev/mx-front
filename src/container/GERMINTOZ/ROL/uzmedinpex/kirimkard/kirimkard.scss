@@ -1,0 +1,11 @@
+.text-hide{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 400px;
+    cursor: pointer;
+    &:hover{
+        overflow-x: scroll;
+        text-overflow: inherit;
+    }
+}

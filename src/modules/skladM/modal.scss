@@ -1,0 +1,41 @@
+.site-list{
+    list-style: none;
+    &--create{
+        padding-right:18px;
+        height: 400px;
+        overflow: scroll;
+    }
+}
+.site-list__div{
+    margin-top:16px;
+    padding:4px;
+    border: 1px solid #E1E1E1;
+    border-radius:12px; 
+}
+.site-list__item{
+    padding:11px;
+    margin-bottom: 7px;
+    border: 1px solid #E1E1E1;
+}
+.css-1tak54t{
+    background-color: #fff;
+}
+.css-q8hpuo-MuiFormControl-root{
+    // margin-bottom: 24px !important;
+}
+.modal-one{
+    border-radius: 12px;
+}
+.site-list__item-span{
+    border-right: 2px solid #E1E1E1;
+    padding-right: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.kirm-head{
+    display:inline-block;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1464C0;
+}

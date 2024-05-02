@@ -1,0 +1,138 @@
+.jihozlar_block_top {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+}
+
+.jihozlar_block_top_inner {
+    width: 16.6%;
+    // border-left: 1px solid black;
+    height: 80px;
+    // border-bottom: 1px solid black;
+    // border-top: 1px solid black;
+    padding: 10px;
+    color: #4D4D4D;
+    h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #4D4D4D;
+    margin: 0;
+// padding: 10px;
+    }
+
+   
+}
+
+.jihozlar_div {
+    padding-right: 20px;
+
+    .arxiv_filter {
+    margin-bottom: 20px;
+}
+}
+
+
+.jihozlar_block_top_inner_text {
+    width: 16.6%;
+    min-height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+     p {
+        text-align: left;
+        margin: 0;
+        margin-top: 5px;
+        padding: 10px;
+        font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #111111;
+    }
+}
+.jihozlar_title {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: #111111;
+margin-right: 40px;
+}
+.sklad_top {
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+}
+}
+
+.modal_jihozlar {
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.input_block {
+    // display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .input_div {
+        // width: 45%;
+        &::after{
+            display: block;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            border: 1px solid #E1E1E1;
+            content: "";
+            }
+    }
+
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+        width: 100%;
+    }
+}
+
+.btn_close_9 {
+    border:none;
+    background: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+// .edit_btn {
+//     margin-left:5px !important;
+// }
+
+.jihozlar_blocks_bottom {
+  display: flex;
+  
+//   background:white;
+  
+}
+
+
+
+
+.jihozlar_blocks_bottom:nth-child(odd) {
+    background:#FFFFFF;
+}
+
+.delete_div {
+    width:50px;
+    height: 50px;
+    img {
+        width: 100%;
+    }
+}
+.css-1nrlq1o-MuiFormControl-root{
+    width: 100% !important;
+}

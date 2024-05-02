@@ -1,0 +1,13 @@
+.ariza_bottom_top {
+  button {
+    color: #4d4d4d;
+    &.active {
+      color: #1464c0;
+    }
+  }
+}
+.table-pagination-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}

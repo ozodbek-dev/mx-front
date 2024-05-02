@@ -1,0 +1,36 @@
+.sklad_top_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sklad_top_block_inner {
+  display: flex;
+  align-items: center;
+}
+.sklad_top_block_inner button {
+  margin-left: 10px;
+}
+.sklad_top_block_inner button:nth-child(2) {
+  background: #F69641 !important;
+}
+.sklad_top_block_inner button:nth-child(4) {
+  background: #18CF6C !important;
+}
+.sklad_top_block_inner button:nth-child(1) {
+  background: white !important;
+  color: #4D4D4D;
+}
+.sklad_top_block_inner .sklad_title {
+  margin-right: 10px;
+}
+
+.partiya_number {
+  margin-top: 20px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.partiya_number .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}/*# sourceMappingURL=omborhona.css.map */

@@ -1,0 +1,61 @@
+.grid {
+  display: grid;
+  @for $i from 1 through 10 {
+    &-cols-#{$i} {
+      grid-template-columns: repeat($i, 1fr);
+    }
+  }
+}
+
+@for $i from 1 through 100 {
+  .p-#{$i} {
+    padding: #{$i}px;
+  }
+  .px-#{$i} {
+    padding: 0 #{$i}px;
+  }
+  .py-#{$i} {
+    padding: #{$i}px 0;
+  }
+  .pt-#{$i} {
+    padding-top: #{$i}px;
+  }
+  .pb-#{$i} {
+    padding-bottom: #{$i}px;
+  }
+  .pl-#{$i} {
+    padding-left: #{$i}px;
+  }
+  .pr-#{$i} {
+    padding-left: #{$i}px;
+  }
+}
+
+@for $i from 1 through 100 {
+  .m-#{$i} {
+    margin: #{$i}px;
+  }
+  .mx-#{$i} {
+    margin: 0 #{$i}px;
+  }
+  .my-#{$i} {
+    margin: #{$i}px 0;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}px;
+  }
+  .mr-#{$i} {
+    margin-left: #{$i}px;
+  }
+}
+.divide {
+  & > div {
+    border: 1px solid;
+  }
+}

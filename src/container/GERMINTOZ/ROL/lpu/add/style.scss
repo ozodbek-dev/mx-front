@@ -1,0 +1,24 @@
+.tools {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  &__title,
+  &__remove-btn {
+    width: 20px;
+    text-align: center;
+    &:not(.tools__title) {
+      transition: 0.3s;
+      cursor: pointer;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  &__fields {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}

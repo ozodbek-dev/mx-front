@@ -1,0 +1,116 @@
+.jihozlar_block_top {
+  display: flex;
+  align-items: center;
+}
+
+.jihozlar_block_top_inner {
+  width: 16.6%;
+  height: 80px;
+  padding: 10px;
+  color: #4D4D4D;
+}
+.jihozlar_block_top_inner h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: #4D4D4D;
+  margin: 0;
+}
+
+.jihozlar_div {
+  padding-right: 20px;
+}
+.jihozlar_div .arxiv_filter {
+  margin-bottom: 20px;
+}
+
+.jihozlar_block_top_inner_text {
+  width: 16.6%;
+  min-height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.jihozlar_block_top_inner_text p {
+  text-align: left;
+  margin: 0;
+  margin-top: 5px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.jihozlar_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #111111;
+  margin-right: 40px;
+}
+
+.sklad_top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sklad_top .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.modal_jihozlar {
+  height: 550px;
+  overflow-y: scroll;
+}
+
+.input_block {
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input_block .input_div::after {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #E1E1E1;
+  content: "";
+}
+.input_block .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+
+.btn_close_9 {
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.jihozlar_blocks_bottom {
+  display: flex;
+}
+
+.jihozlar_blocks_bottom:nth-child(odd) {
+  background: #FFFFFF;
+}
+
+.delete_div {
+  width: 50px;
+  height: 50px;
+}
+.delete_div img {
+  width: 100%;
+}
+
+.css-1nrlq1o-MuiFormControl-root {
+  width: 100% !important;
+}/*# sourceMappingURL=jihozlar.css.map */

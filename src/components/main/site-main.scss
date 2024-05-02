@@ -1,0 +1,66 @@
+.site-main__wrraper{
+         position: relative;
+         z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+}
+
+.site-main__select{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 60px;
+    left: calc(0% - 306px);
+    width: 228px;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    &--open{
+        display: none;
+    }
+    &--region{
+        top: 18px;
+    }
+    &--city{
+        top: 90px;
+
+    }
+}
+
+.search {
+    margin: 30px 0;
+}
+a {
+    text-decoration: none;
+    color:black;
+    &:hover {
+        color: rgb(89, 89, 230);
+    }
+}
+
+.search_person {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.bolds_text {
+    font-weight: bold;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+font-weight: bold !important;
+}
+
+.css-1azl6jz-MuiTableCell-root {
+    font-weight: bold !important;
+}
+
+.css-1q1u3t4-MuiTableRow-root {
+    &:hover {
+        background: rgb(226, 224, 224) !important;
+    }
+}

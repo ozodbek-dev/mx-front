@@ -1,0 +1,154 @@
+.data_muassasa{
+   padding-right: 50px;
+
+   
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)>.MuiDataGrid-cell{
+    // overflow: inherit !important;
+}
+
+.data_grid_all {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    padding: 5px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.back_btn {
+    margin-top: 28px;
+      margin-top: 30px;
+    .css-sghohy-MuiButtonBase-root-MuiButton-root:first-child {
+    background-color: #DDEBFB;
+    color: #1464C0;
+}
+}
+
+.data_grid_all_block {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 10%;
+    &:first-child {
+        margin-right: 52px;
+    }
+     &:nth-child(2) {
+        margin-right: 49px;
+    }
+     &:nth-child(3) {
+        margin-right: 29px;
+    }
+}
+
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight) > .MuiDataGrid-cell a{
+    font-size: inherit !important;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)>.MuiDataGrid-cell[data-colindex="4"]{
+    // justify-content: right;
+    padding-right: 24px;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-iconSeparator{
+    display: none;
+}
+
+.css-1jbbcbn-MuiDataGrid-columnHeaderTitle{
+    // padding-right:11px;
+}
+.table_height{
+
+    &--none{
+        display: none;
+    }
+}
+@media only screen and  (max-width:2560px) {
+    
+    .data_grid_all_block {
+    max-width: 10%;
+    &:first-child {
+        margin-right: 52px;
+    }
+     &:nth-child(2) {
+        margin-right: 0;
+    }
+     &:nth-child(3) {
+        margin-right: 46px;
+    }
+}
+
+}
+
+@media only screen and  (max-width:1440px) {
+    
+    .data_grid_all_block {
+    max-width: 10%;
+    &:first-child {
+        margin-right: 52px;
+    }
+     &:nth-child(2) {
+        margin-right: 52px;
+    }
+     &:nth-child(3) {
+        margin-right: 25px;
+    }
+}
+
+}
+
+.data_muassasa {
+    padding: 0 20px;
+
+    .css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+        // margin-left: 13px !important;
+    }
+
+    // .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-columnHeaderTitleContainerContent {
+    //     margin: auto;
+    //     &:first-child {
+    //         margin: inherit !important;
+    //     }
+
+    // }
+    // .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cellContent {
+    //     margin: inherit !important;
+    //     margin-left: 30px !important;
+    // }
+
+    // .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-columnHeaderTitleContainerContent {
+    //     margin: auto !important;
+    // }
+
+    .MuiDataGrid-columnHeader:nth-child(2) {
+       .MuiDataGrid-columnHeaderTitleContainerContent {
+       margin: inherit !important;
+       }
+        
+        
+    }
+    
+
+    .table_height {
+        height: 416px !important;
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and  (max-width:1024px) {
+    
+    .data_grid_all_block {
+    max-width: 10%;
+    &:first-child {
+        margin-right: 52px;
+    }
+     &:nth-child(2) {
+        margin-right: 86px;
+    }
+     &:nth-child(3) {
+        margin-right: 66px;
+    }
+}
+
+}

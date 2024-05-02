@@ -1,0 +1,24 @@
+.page-status--1::before {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../../../../../assets/icon/time.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+.page-status--2::before {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../../../../../assets/icon/Yubor.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}/*# sourceMappingURL=arizasingle.css.map */

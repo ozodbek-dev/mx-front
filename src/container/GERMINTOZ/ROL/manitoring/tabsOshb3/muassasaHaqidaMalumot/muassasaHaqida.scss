@@ -1,0 +1,87 @@
+.tablisa {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  margin-top: 0px;
+  padding: 20px 20px 0 20px;
+  span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1464c0;
+  }
+}
+
+.body {
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  .div {
+    display: flex;
+    width: 100%;
+    .left {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #e1e1e1;
+      padding: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #4d4d4d;
+    }
+    .rigth {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #e1e1e1;
+      padding: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #111111;
+    }
+  }
+}
+.batafsil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  .p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1464c0;
+    &::before {
+      display: inline-block;
+      width: 19px;
+      height: 13px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      content: "";
+    }
+  }
+}
+.div_m {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+}
+.tablisa_3 {
+  width: 49%;
+  background: #ffffff;
+  height: 344px;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  margin-top: -50px;
+  padding: 20px 20px 0 20px;
+  span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1464c0;
+  }
+}

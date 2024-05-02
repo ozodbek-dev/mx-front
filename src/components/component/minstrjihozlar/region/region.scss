@@ -1,0 +1,23 @@
+.site-region{
+   padding: 40px 20px 20px;
+
+   .css-1howxi1-MuiTableCell-root {
+      text-align: center;
+      &:nth-child(1) {
+         text-align: left;
+      }
+      &:nth-child(2) {
+         text-align: left;
+      }
+   }
+
+   .css-dsuxgy-MuiTableCell-root {
+      text-align: center;
+      &:nth-child(1) {
+         text-align: left;
+      }
+      &:nth-child(2) {
+         text-align: left;
+      }
+   }
+}

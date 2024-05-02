@@ -1,0 +1,106 @@
+@use "./fonts";
+@use "./pagination-position";
+@use "./site-btn";
+@use "./site-footer";
+@use "./input-number";
+@use "./list-tool";
+@use "./flex-all";
+.text {
+  &-capitalize {
+    text-transform: capitalize;
+  }
+  &-lowercase {
+    text-transform: lowercase;
+  }
+  &-uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.flex {
+  display: flex;
+  &-col {
+    flex-direction: column;
+    &-reverse {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.items {
+  &-center {
+    align-items: center;
+  }
+}
+
+.justify {
+  &-center {
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+}
+.input__label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4d4d4d;
+  margin-bottom: 5px;
+}
+
+@for $i from 0 through 200 {
+  .h-#{$i} {
+    height: #{$i}px;
+  }
+  .w-#{$i} {
+    height: #{$i}px;
+  }
+  .p-#{$i} {
+    padding: #{$i}px;
+  }
+
+  .\!p-#{$i} {
+    padding: #{$i}px !important;
+  }
+
+  .m-#{$i} {
+    margin: #{$i}px;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}px;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+  .px-#{$i} {
+    padding-left: #{$i}px;
+    padding-right: #{$i}px;
+  }
+  .mx-#{$i} {
+    margin-left: #{$i}px;
+    margin-right: #{$i}px;
+  }
+  .py-#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+  .my-#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+}
+
+// [class^="!"] {
+//   color: orange !important;
+// }
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}

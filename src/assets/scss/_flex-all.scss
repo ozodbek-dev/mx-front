@@ -1,0 +1,7 @@
+.flex-all {
+  display: flex;
+  align-items: center;
+  &__end {
+    justify-content: end;
+  }
+}

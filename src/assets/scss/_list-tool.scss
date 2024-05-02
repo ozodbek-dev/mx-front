@@ -1,0 +1,33 @@
+.list-tools {
+  padding-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  &__btn {
+    display: flex !important;
+    margin-top: 24px !important;
+    margin-right: 24px !important;
+    margin-left: auto !important;
+    &-close {
+      margin-bottom: 44px !important;
+    }
+  }
+  &__modal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &-input {
+      width: 100%;
+      margin-bottom: 12px;
+      &-text {
+        margin-top: 18px;
+        width: 100%;
+        resize: none;
+      }
+    }
+    &-btn {
+      display: block !important;
+      margin-top: 24px !important;
+      width: 100%;
+    }
+  }
+}

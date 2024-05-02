@@ -1,0 +1,27 @@
+.table-container tr:nth-child(2n) {
+        background-color: #E7EBF2;
+}
+.table-load{
+    display: inline-block;
+    padding-top: 7px ;
+    border: 0.5px solid #C4C4C4 ;
+    border-radius: 3px; 
+    margin-right:7px;
+    width: 150px ;
+}
+.table-width{
+    display:inline-block;
+    margin-right:7px;
+    height: 3px;
+    padding-top: 7px ;
+    border-radius: 3px ; 
+    background-color: #18CF6C;
+    &--2{
+    display:inline-block;
+    margin-right:7px;
+    height: 3px;
+    padding-top: 7px ;
+    border-radius: 3px ; 
+    background-color: #F69641;
+    }
+}

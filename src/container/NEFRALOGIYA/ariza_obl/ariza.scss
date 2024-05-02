@@ -1,0 +1,166 @@
+.ariza {
+  .css-1ygcj2i-MuiTableCell-root {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #4d4d4d !important;
+  }
+
+  .css-1ex1afd-MuiTableCell-root {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #111111 !important;
+  }
+
+  .ariza_top {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .ariza_top_title {
+      margin: 0;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  .ariza_bottom {
+    padding: 0 20px;
+  }
+}
+
+.ariza_bottom_top {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  padding: 28px 0 8px 15px;
+
+  // border-radius: 12px;
+  .ariza_link {
+    margin-right: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4d4d4d;
+    cursor: pointer;
+  }
+
+  .ariza_link_input {
+    display: none;
+  }
+}
+
+.zayavka_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1464c0;
+  margin: 0;
+  margin: 5px 0 20px 0;
+}
+
+.delete_btn_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  .jayavka_btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    padding: 8px;
+    color: #1464c0;
+    border: none;
+    background: #ddebfb;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}
+
+.ariza_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4d4d4d;
+
+  &.active {
+    color: #1464c0;
+  }
+}
+
+.ariza_bgc {
+  height: 100%;
+  // background:red;
+  width: 2px;
+  height: 100%;
+  // background: red;
+  width: 2px;
+  height: 72px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.table_ariza_block {
+  position: relative;
+}
+.search-ariza {
+  width: 256px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.create_ariza_btn {
+  display: flex;
+  div {
+    button {
+      background: white;
+    }
+  }
+}
+.notification_btn {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+  height: 36px;
+}
+.notification_btn.read_notification {
+  border-color: #63eda2 !important;
+  color: #63eda2;
+  margin: auto;
+}
+.notification_btn.new_notification {
+  color: #1464c0;
+  border-color: #1464c0 !important;
+  margin: auto;
+}
+tbody {
+  tr:nth-of-type(2n) {
+    background-color: #e7ebf1;
+  }
+}
+tbody {
+  .css-1q1u3t4-MuiTableRow-root:nth-of-type(2n) {
+    background-color: #e7ebf1;
+  }
+}

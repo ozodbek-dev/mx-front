@@ -1,0 +1,14 @@
+.page-status{
+    &::before{
+        display:inline-block;
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        vertical-align: middle;
+        background-image: url("../../../../../assets/icon/Yubor.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        content:"";
+    }
+}

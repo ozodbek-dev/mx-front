@@ -1,0 +1,20 @@
+.input-number {
+  border-radius: 4px;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  display: block;
+  min-width: 0;
+  border-color: #dfdfdf;
+  padding: 16.5px 14px;
+  &__label {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+  }
+}

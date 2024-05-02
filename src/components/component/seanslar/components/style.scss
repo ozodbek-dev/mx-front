@@ -1,0 +1,32 @@
+.examinations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  &__item {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    &--header {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &--button {
+      background-color: rgb(97, 97, 255);
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+    &--table {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .bordered {
+      padding: 8px;
+      border: 1px solid #f2f2f2;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}

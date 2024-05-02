@@ -1,0 +1,95 @@
+.tab_1 {
+  background: white;
+  border-radius: 12px;
+  .header_r {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1464c0;
+  }
+}
+.royxatbox {
+  height: 760px;
+  background: white;
+  border-radius: 12px;
+  padding: 1px 28px;
+}
+.dflex {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.kirimChiqim {
+  width: 100%;
+}
+.royxat {
+  width: 100%;
+}
+.box_kirim {
+  width: 100%;
+  height: 96px;
+  border: 1px solid #e1e1e1;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .jami {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    border-right: 1px solid #e1e1e1;
+    height: 100%;
+  }
+  .box_xs {
+    display: flex;
+    align-items: center;
+    padding: 10px 28px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+    button {
+      background: #ffffff;
+      border: 1px solid #9ac4f4;
+      border-radius: 40px;
+      padding: 8px;
+      color: #1464c0;
+    }
+  }
+
+  .data {
+    width: 160px;
+    display: flex;
+    justify-content: flex-end;
+    .time {
+      text-align: end;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: right;
+      color: #4d4d4d;
+      span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        color: #888888;
+      }
+    }
+  }
+}
+.box_kirim:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}

@@ -1,0 +1,190 @@
+@import "../../../assets/scss/mixin.scss";
+.input_auth_block {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-top: 15px;
+
+    div {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+
+    }
+}
+
+.auth {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form_auth {
+    padding-top: 4vmax;
+}
+
+.auth_left {
+        width: 50%;
+        padding: 40px;
+        margin: 0 auto;
+        margin-top: 3vmax;
+        background-color: #ffffff70;
+        border-radius: 12px;
+
+   
+
+    .img_logo-ssv {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-top: 1.5vmax;
+        p {
+            font-size: 24px;
+        }
+    }
+}
+
+.auth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.auth_right {
+    width: 75%;
+    height: 100vh;
+    right: 0;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.sso-link{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.btn_auth {
+    margin-top: 25px;
+}
+.ssv_text{
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+    &::before{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 85px;
+        background-image: url("../../../assets/img/logossv.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+    }
+}
+.visabel-eye{
+    position: absolute;
+    z-index: 2;
+     width: 30px;
+    height: 30px;
+    right: calc(6%);
+    cursor: pointer;
+    &--close{
+        position: absolute;
+        z-index: 5;
+        width: 30px;
+        height: 30px;
+        right: calc(6%);
+        background-image: url("../../../assets/img/eyeoff.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+}
+
+@include media(1208px){
+   .auth_left .img_logo-ssv p{
+        font-size: 18px;
+    }
+    .visabel-eye{
+        // top: 507px;
+        // &--close{
+        //     top: 507px;
+        // }
+    }
+}
+@include media (960px){
+    .auth_left .img_logo-ssv p{
+        font-size: 16px;
+    }
+     .visabel-eye{
+        // top: 561px;
+        // &--close{
+        //     top: 561px;
+        // }
+    }
+}
+@include media (886px){
+    .auth{
+        display: block;
+        // background-image: url("../../../assets/img/logo.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .auth_left{
+        width: 50%;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+    .auth_left .img_logo-ssv p{
+            font-weight: 600;
+            font-size: 14px;
+    }
+    .ssv_text{
+        &::before{
+            width: 80px;
+            height: 70px;
+        }
+    }
+     .visabel-eye{
+        width: 20px;
+        height: 20px;
+        // right: 30%;
+        // top: 546px;
+        &--close{
+            width: 20px;
+            height: 20px;
+            // right: 30%;
+            // top: 546px;
+        }
+    }
+    .auth-img{
+        display: none;
+    }
+}
+@include media (418px){
+    .auth_left{
+        width: 77%;
+    }
+    .visabel-eye{
+        // right: 21%;
+        // &--close{
+        //      right: 21%;
+        // }
+    }
+}

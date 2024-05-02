@@ -1,0 +1,144 @@
+.prihod_top_inner {
+  display: flex;
+  margin-top: 20px;
+
+  .monitoring_top_inner_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    margin-left: 15px;
+    color: #111111;
+  }
+
+  button {
+    background: #ddebfb;
+    border-radius: 12px;
+    color: #1464c0;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.prihod {
+  padding: 0 20px;
+}
+
+.prihod_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.excel_bl {
+  button {
+    background: #18cf6c;
+    border-radius: 12px;
+  }
+}
+
+.prihod_block {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  &_inner {
+    width: 50%;
+    padding: 32px;
+    background: #ffffff;
+    border-radius: 12px;
+  }
+}
+
+.prihod_block_inner_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1464c0;
+}
+
+.prihod_block_inner_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons_group {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e1e1;
+
+  button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 15px;
+    color: #4d4d4d;
+  }
+}
+
+.card_blocks {
+  margin-top: 20px;
+}
+
+.kirim_right_inner_top {
+  button {
+    background: #f4f4f4;
+    border-radius: 12px;
+    color: #4d4d4d;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.kirim_right_inner_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h4 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1464c0;
+  }
+}
+
+.kirim_right_inner_bottom_top {
+  display: flex;
+  align-items: center;
+
+  button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4d4d4d;
+    width: 33%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eff2f5;
+
+    &:hover {
+      border-bottom: 1px solid #1464c0;
+    }
+  }
+}
+
+.kirim_right_inner_bottom {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 0 0 0;
+  border: 1px solid #eff2f5;
+  margin-top: 20px;
+}

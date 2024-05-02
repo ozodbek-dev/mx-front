@@ -1,0 +1,134 @@
+.monitoring {
+    padding: 0 20px;
+}
+
+.monitoring_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    h4 {
+        margin: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #111111;
+        margin-right: 20px;
+
+    }
+}
+input{
+    background: white;
+}
+.monitoring_top_inner {
+    display: flex;
+
+}
+
+.monitoring_search {
+    width: 17%;
+    margin: 20px 0;
+
+    label[data-shrink=false]+.MuiInputBase-formControl .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+        background: white;
+    }
+
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+        background: white;
+    }
+}
+
+.seans_modal_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    color: #1464C0;
+
+}
+
+.seans_modal_inner_top {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4D4D4D;
+    }
+}
+
+.seans_modal_inner {
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.seans_modal_inner_bottom {
+    display: flex;
+
+    div {
+        width: 50%;
+        border: 1px solid #C4C4C4;
+
+        // padding: 10px;
+        p {
+            margin: 0;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            // padding: 10px;
+            color: #4D4D4D;
+            padding: 20px;
+
+            &:nth-child(2) {
+                border-top: 1px solid #C4C4C4;
+            }
+            &:nth-child(3) {
+                border-top: 1px solid #C4C4C4;
+            }
+        }
+    }
+}
+
+.table_scrool {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.seans_modal_there_bottom {
+    display: flex;
+    justify-content: space-between;
+    div {
+        width: 45%;
+        button {
+            width: 100%;
+        }
+    }
+}
+.block_one {
+    display: flex;
+    h4 {
+        margin-left: 20px;
+    }
+}
+
+.block_two {
+    margin-top: 20px;
+    .seans_modal_title {
+        margin-bottom: 20px;
+    }
+}
+.block_there {
+    h4 {
+        margin-top: 20px;
+    }
+}
